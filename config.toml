@@ -1,0 +1,12 @@
+baseURL = "https://deep.dance"
+languageCode = "en-us"
+title = "deep.dance"
+theme = "sam"
+
+[[params.videoBackground.sources]]
+    source  = "/background.mp4" # Your video file
+    type    = "video/mp4"
+    poster  = "/background.jpg" # The image to show when the video isn't playing
+
+[params.videoBackground]
+    overlay = "rgba(0, 0, 0, 0.4)" # optional
