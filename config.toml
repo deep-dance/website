@@ -1,7 +1,7 @@
 baseURL = "https://deep.dance"
 languageCode = "en-us"
 title = "deep.dance"
-theme = "sam"
+theme = "hermit"
 
 [[params.videoBackground.sources]]
     source  = "/background.mp4" # Your video file
