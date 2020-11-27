@@ -10,3 +10,7 @@ theme = "hermit"
 
 [params.videoBackground]
     overlay = "rgba(0, 0, 0, 0.4)" # optional
+
+[params]
+    homeSubtitle = "Premiere MAY 28, Hamburg"
+    homeAnnouncement = "Infos & Code - available here soon"

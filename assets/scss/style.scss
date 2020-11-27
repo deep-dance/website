@@ -25,6 +25,7 @@ html {
   line-height: 1.6;
   letter-spacing: .06em;
   scroll-behavior: smooth;
+  background-position: center;
 }
 
 body,
@@ -403,14 +404,18 @@ p.img-404 {
   text-align: center;
 }
 
-#home-subtitle {
+#home-subtitle, #home-announcement {
   margin-top: 0;
   margin-bottom: 1.5em;
   text-align: center;
   line-height: normal;
-  font-size: .7em;
-  font-style: italic;
+  font-size: 1.2em;
   opacity: .9;
+}
+
+#home-announcement {
+  margin-top: 2em;
+  font-size: .6em;
 }
 
 #home-social {
