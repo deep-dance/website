@@ -31,7 +31,7 @@ cd deep-dance/website/
 hugo
 
 cd ..
-cp -R website/public/* deep-dance.github.io/
+rsync -a -v website/public/ deep-dance.github.io/
 
 cd deep-dance.github.io
 git add .
