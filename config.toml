@@ -12,5 +12,64 @@ theme = "hermit"
     overlay = "rgba(0, 0, 0, 0.4)" # optional
 
 [params]
-    homeSubtitle = "Premiere MAY 28, Hamburg"
+    subtitle = "Premiere"
+    date = "May 28th, Hamburg"
+    location = "Hamburg"
     homeAnnouncement = "Infos & Code - available here soon"
+
+[params.gpt3]
+    copyright = ""
+    link = "https://openai.com/"
+
+
+# [[params.gpt3.list]]
+#     text = "deep.dance is an dance piece created by an AI and danced by humans. It deals with the concepts of \"self-expression\" of ai.dance, \"self-identification\", \"self-death\" and \"our identity of selves.\""
+
+[[params.gpt3.list]]
+    text = "deep.dance is a dance piece created by an AI and danced by humans. It deals with the concepts of \"I\" and \"the universe\". That exist, including emotions and emotions. One, I think we are seeing the relationship between reality and reality, a dance chore performed by an allu while a hologram acts on a person. As well, the entire song is sung with a hologram-like version. If this were a traditional dance with the allu singing, you would think that this is simply the only way of getting the allu voice."
+
+[params.team]
+    title = "# TEAM"
+
+[[params.team.list]]
+    position = "Choreography"
+    name = "deep.dance"
+
+[[params.team.list]]
+    position = "Project"
+    name = "Jascha Viehstädt"
+
+[[params.team.list]]
+    position = "Code"
+    name = "Erik Kundt, Nikolas Zöller, Lea Schorling"
+
+[[params.team.list]]
+    position = "Dance"
+    name = "Raymond Liew Jin Pin, Girish Kumar"
+
+[[params.team.list]]
+    position = "Stage"
+    name = "Takaya Kobayashi"
+
+[[params.team.list]]
+    position = "Outfit"
+    name = "Mia Wittenhaus"
+
+[params.funding]
+    title = "# FUNDED"
+    text= "**deep.dance** ist eine Produktion von Jascha Viehstädt. Gefördert im Rahmen des AUTONOM Programms des Fonds der Darstellenden Künste, von der Behörde für Kunst und Medien Hamburg, sowie der Hamburgischen Kulturstiftung."
+
+[[params.funding.list]]
+    name = "Fonds Darstellende Künste"
+    href = "https://www.fonds-daku.de"
+    icon = "Autonom_Logo_mitFD_custom.png"
+
+[[params.funding.list]]
+    name = "Behörde für Kultur und Medien Hamburg"
+    href = "https://www.hamburg.de/bkm"
+    icon = "KuM_HKS_custom.png"
+
+[[params.funding.list]]
+    name = "Hamburgische Kulturstiftung"
+    href = "https://www.kulturstiftung-hh.de"
+    icon = "HKS_logo_custom.png"
