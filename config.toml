@@ -57,7 +57,7 @@ theme = "hermit"
 
 [params.funding]
     title = "# FUNDED"
-    text= "**deep.dance** ist eine Produktion von Jascha Viehstädt. Gefördert im Rahmen des AUTONOM Programms des Fonds der Darstellenden Künste, von der Behörde für Kunst und Medien Hamburg, sowie der Hamburgischen Kulturstiftung."
+    text= "**deep.dance** ist eine Produktion von [Jascha Viehstädt](http://www.jaschaviehstaedt.com). Gefördert im Rahmen des AUTONOM Programms des Fonds Darstellende Künste, von der Behörde für Kultur und Medien Hamburg, sowie der Hamburgischen Kulturstiftung."
 
 [[params.funding.list]]
     name = "Fonds Darstellende Künste"
