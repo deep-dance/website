@@ -12,8 +12,10 @@ theme = "hermit"
     overlay = "rgba(0, 0, 0, 0.4)" # optional
 
 [params]
+    title = "Performing code"
     subtitle = "Premiere"
-    date = "May 28th, Hamburg"
+    date = "28.05.21"
+    time = "20:00"
     location = "Hamburg"
     homeAnnouncement = "Infos & Code - available here soon"
 
@@ -25,8 +27,11 @@ theme = "hermit"
 # [[params.gpt3.list]]
 #     text = "deep.dance is an dance piece created by an AI and danced by humans. It deals with the concepts of \"self-expression\" of ai.dance, \"self-identification\", \"self-death\" and \"our identity of selves.\""
 
-[[params.gpt3.list]]
-    text = "deep.dance is a dance piece created by an AI and danced by humans. It deals with the concepts of \"I\" and \"the universe\". That exist, including emotions and emotions. One, I think we are seeing the relationship between reality and reality, a dance chore performed by an allu while a hologram acts on a person. As well, the entire song is sung with a hologram-like version. If this were a traditional dance with the allu singing, you would think that this is simply the only way of getting the allu voice."
+[[params.intro.list]]
+    text = "We tried with the AI. We danced for the AI. We did, what it choreographed for us. We asked ourselves, what does it want? We thought, maybe nothing at all. We computed our creativity. We performed."
+
+[[params.about.list]]
+    text = "In DEEP.DANCE, a team of international artists replaces themselves: A complete choreography, created by an artificial neural network by their design, is executed in detail by 3 performers. The work opens up an empathetic view into the hyper-logical world of code and statistical calculations and confronts the viewer with a construct that is accessible to few people and yet interpolates on a global scale what our future will look like. Questions are raised about the eternal hopes we project into the development of artificial intelligence and what it triggers to at last have our highly human, artistic creativity computed."
 
 [params.team]
     title = "# TEAM"
