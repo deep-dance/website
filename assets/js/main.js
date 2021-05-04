@@ -13,11 +13,17 @@ function resizeOverlay() {
   $('#overlay').height(height + 1000);
 }
 
+function mapValueRange(value, inMin, inMax, outMin, outMax) {
+  return (value - inMin) * (outMax - outMin) / 
+    (inMax - inMin) + outMin;
+}
+
 // ----------------------------------------------------------------------------
 
 var mouseX = 0;
 var mouseY = 0;
 var mouseThreshold = 10;
+var currentScroll = 0;
 
 var overlays = [
   'overlay/0107.png',
@@ -47,7 +53,17 @@ var overlays = [
   'overlay/0175.png',
   'overlay/0176.png',
 ];
-var nextOverlay = 1;
+var nextOverlay = 0;
+
+var colors = [
+  '#000000',
+  '#663300',
+  '#ff6666',
+  '#ff66ff',
+  '#ffcccc',
+  '#d3d3d3',
+];
+var nextColor = 0;
 
 function changeOverlay() {
   $('#overlay').css('background-image', 'url(' + overlays[nextOverlay] + ')')
@@ -57,23 +73,46 @@ function changeOverlay() {
     nextOverlay++;
 }
 
-// $(document).mousemove(function(event) {
-//   var mouseDiffX = Math.abs(mouseX - event.pageX);
-//   var mouseDiffY = Math.abs(mouseY - event.pageY);
-//   if (mouseDiffX > mouseThreshold || mouseDiffY > mouseThreshold) {
-//     changeOverlay();
-//   }
-//   mouseX = event.pageX;
-//   mouseY = event.pageY;
-// });
+function changeBackgroundColor(forward) {
+  $('.bg-color').animate( {
+    backgroundColor: colors[nextColor]
+  }, 7000);
+  if (nextColor == colors.length - 1)
+    nextColor = 0;
+  else
+    nextColor++;
+}
+
+$(document).mousemove(function(event) {
+  var mouseDiffX = Math.abs(mouseX - event.pageX);
+  var mouseDiffY = Math.abs(mouseY - event.pageY);
+  if (mouseDiffX > mouseThreshold || mouseDiffY > mouseThreshold) {
+    changeOverlay();
+  }
+  mouseX = event.pageX;
+  mouseY = event.pageY;
+});
 
 $(document).scroll(function(event) {
   // console.log($(document).scrollTop());
+  // var topBefore = currentScroll;
+  // var topAfter = $(document).scrollTop();
+  // currentScroll = topAfter;
+  // console.log("top-before:" + topBefore);
+  // console.log("top-after:" + topAfter);
+  // if (topAfter < topBefore)
+  //   changeBackgroundColor(false);
+  // else
+  //   changeBackgroundColor(true);
   changeOverlay();
 });
 
 $(document).ready(function() {
   resizeOverlay();
+
+  setInterval(function() {
+    changeBackgroundColor();
+  }, 100);
   preload(overlays);
 });
 
