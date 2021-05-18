@@ -1,4 +1,6 @@
-baseURL = "https://deep.dance"
+
+# baseURL = "https://deep.dance"
+baseURL = "https://erak.github.io/webstage/"
 languageCode = "en-us"
 title = "deep.dance"
 theme = "hermit"
@@ -12,10 +14,10 @@ theme = "hermit"
     overlay = "rgba(0, 0, 0, 0.4)" # optional
 
 [params]
-    title = "Performing code"
-    subtitle = "Premiere"
-    date = "28.05.21"
-    time = "20:00"
+    title = "Deep.Dance"
+    subtitle = "About Coding Choreography"
+    date = "17.06.2021"
+    time = "20h"
     location = "Hamburg"
     homeAnnouncement = "Infos & Code - available here soon"
 
@@ -28,37 +30,49 @@ theme = "hermit"
 #     text = "deep.dance is an dance piece created by an AI and danced by humans. It deals with the concepts of \"self-expression\" of ai.dance, \"self-identification\", \"self-death\" and \"our identity of selves.\""
 
 [[params.intro.list]]
-    text = "We tried with the AI. We danced for the AI. We did, what it choreographed for us. We asked ourselves, what does it want? We thought, maybe nothing at all. We computed our creativity. We performed."
+    text = "Enter the hermetically soft world of code. Human, Transhuman. Machine learning. Dance. Computation. Creativity. Prediction. Soft-ware. Choreography."
 
 [[params.about.list]]
-    text = "In DEEP.DANCE, a team of international artists replaces themselves: A complete choreography, created by an artificial neural network by their design, is executed in detail by 3 performers. The work opens up an empathetic view into the hyper-logical world of code and statistical calculations and confronts the viewer with a construct that is accessible to few people and yet interpolates on a global scale what our future will look like. Questions are raised about the eternal hopes we project into the development of artificial intelligence and what it triggers to at last have our highly human, artistic creativity computed."
+    text = "In Deep.Dance, a team of international artists replaces itself with an artificial intelligence. A complete choreography, created by an artificial neural network that they programmed, is executed down to the last detail by three dancers. The strangely familiar movements open up an emphatic view into the hyper-logical world of code and confront the viewers with a construct that is accessible to few people and yet determines our future. The Hamburg based choreographer Jascha Viehstädt creates a silent and soft world of statistically predetermined movements that makes tangible what it means to have human creativity computed by a machine. In this way, the uncompromising simplicity of the piece offers an insight into the basic mechanisms of software and machine learning and questions the hopes and fears that are projected into the development of artificial intelligence."
 
 [params.team]
     title = "# TEAM"
 
 [[params.team.list]]
-    position = "Choreography"
-    name = "deep.dance"
-
-[[params.team.list]]
-    position = "Project"
+    position = "Choreography, Artistic Direction"
     name = "Jascha Viehstädt"
 
 [[params.team.list]]
-    position = "Code"
+    position = "AI Development, 3D-Design and Coding"
     name = "Erik Kundt, Nikolas Zöller, Lea Schorling"
 
 [[params.team.list]]
-    position = "Dance"
-    name = "Raymond Liew Jin Pin, Girish Kumar"
+    position = "Dance, Creation"
+    name = "Girish Kumar Rachappa, Lisa Rykena, Raymond Liew Jin Pin"
 
 [[params.team.list]]
     position = "Stage"
     name = "Takaya Kobayashi"
 
 [[params.team.list]]
-    position = "Outfit"
+    position = "Outfit, 3D-Design"
     name = "Mia Wittenhaus"
+
+[[params.team.list]]
+    position = "Dramaturgy"
+    name = "Felix Meyer-Christian"
+
+[[params.team.list]]
+    position = "Graphic, PR"
+    name = "Julia Löffler, Lukas Besenfelder "
+
+[[params.team.list]]
+    position = "Video"
+    name = "Thomas Oswald"
+
+[[params.team.list]]
+    position = "Production Assistance"
+    name = "Nika Viehstädt"
 
 [params.funding]
     title = "# FUNDED"
@@ -78,3 +92,9 @@ theme = "hermit"
     name = "Hamburgische Kulturstiftung"
     href = "https://www.kulturstiftung-hh.de"
     icon = "HKS_logo_custom.png"
+
+[params.newsletter]
+    headline = "Get a notification for offline events"
+    description = "No spam or ads! Just an email as soon as we know how we can have a show."
+    contact = "Contact: deepdance@jaschaviehstaedt.com"
+    cta = "Subscribe with your email."
