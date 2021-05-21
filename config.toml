@@ -1,6 +1,6 @@
 
-# baseURL = "https://deep.dance"
-baseURL = "https://erak.github.io/webstage/"
+baseURL = "https://deep.dance"
+# baseURL = "https://erak.github.io/webstage/"
 languageCode = "en-us"
 title = "deep.dance"
 theme = "hermit"
@@ -16,6 +16,7 @@ theme = "hermit"
 [params]
     title = "Deep.Dance"
     subtitle = "About Coding Choreography"
+    format = "Online Opening"
     date = "17.06.2021"
     time = "20h"
     location = "Hamburg"
@@ -39,12 +40,14 @@ theme = "hermit"
     title = "# TEAM"
 
 [[params.team.list]]
-    position = "Choreography, Artistic Direction"
+    position = "Choreography,"
+    position_extended = "Artistic Direction"
     name = "Jascha Viehstädt"
 
 [[params.team.list]]
-    position = "AI Development, 3D-Design and Coding"
-    name = "Erik Kundt, Nikolas Zöller, Lea Schorling"
+    position = "AI Development,"
+    position_extended = "3D-Design and Coding"
+    name = "Erik Kundt, Lea Schorling, Nikolas Zöller"
 
 [[params.team.list]]
     position = "Dance, Creation"
@@ -63,12 +66,16 @@ theme = "hermit"
     name = "Felix Meyer-Christian"
 
 [[params.team.list]]
-    position = "Graphic, PR"
+    position = "Graphic Design, PR"
     name = "Julia Löffler, Lukas Besenfelder "
 
 [[params.team.list]]
     position = "Video"
     name = "Thomas Oswald"
+
+[[params.team.list]]
+    position = "Photo"
+    name = "Marcus Renner"
 
 [[params.team.list]]
     position = "Production Assistance"

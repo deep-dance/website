@@ -173,15 +173,13 @@ table {
   opacity: 0.0;
 }
 
+.no-margin-top {
+  margin-top: 0;
+}
+
 .no-margin-bottom {
   margin-bottom: 0;
 }
-
-.color-bright, .color-bright a {
-  // color: #3f9daa;
-  color: #333333;
-}
-
 
 .color-bright a {
   // background-color: black;
@@ -287,32 +285,28 @@ table {
 	z-index: 100000;
 }
 
+.text-large {
+  font-size: 5.5vw;
+  line-height: 5.5vw;
+} 
+
 .text-big {
   font-family: 'SuisseIntl-Light';
-  font-size: 110px;
-  line-height: 120px;
+  font-size: 5vw;
+  line-height: calc(5vw + 10px);
   font-weight: 600;
 }
 
-.text-normal {
-  font-size: 32px;
-  line-height: 36px;
-}
-
 .text-small {
-  font-size: 45px;
-  line-height: 58px;
+  line-height: 3vw;
+  font-size: 2.4vw;
 }
 
 .text-tiny {
-  font-size: 16px;
-  line-height: 20px;
+  line-height: 1.1vw;
+  font-size: 1vw;
 } 
 
-.text-tiniest {
-  font-size: 12px;
-  line-height: 14px;
-} 
 
 .underline {
   text-decoration: underline;
@@ -435,6 +429,13 @@ table {
   background-attachment: fixed;
 }
 
+#trailer {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 200;
+}
+
 // Spotlight
 //
 #spotlight, #spotlight-overlay {
@@ -550,11 +551,6 @@ p.img-404 {
   margin-top: 1em;
 }
 
-#home-title .text-big, #home-title-overlay .text-big{
-  position: relative;
-  right: -140px;
-}
-
 #home-intro,
 #home-intro-overlay {
   margin-top: 50vh;
@@ -577,13 +573,6 @@ p.img-404 {
 #home-funding-overlay .content {
   width: 60%;
 }
-
-#home-team .content,
-#home-team-overlay .content {
-  width: 27%;
-}
-
-
 
 #home-about-overlay .content p {
   mix-blend-mode: exclusion;
@@ -688,7 +677,7 @@ p.img-404 {
 }
 
 #footer {
-  margin: 50vh auto 20px auto;
+  margin: 70vh auto 20px auto;
 }
 
 // list.html
@@ -1168,10 +1157,12 @@ a.footnote-ref {
 
 #mc_embed_signup form div.mce_inline_error {
   color: $text !important;
-  min-height: 150px;
+  min-height: 60px;
   background-color: transparent !important;
   padding-left: 0;
   font-weight: bold;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 // #mc_embed_signup form #mce-error-response {
@@ -1219,22 +1210,22 @@ a.footnote-ref {
   border-top: 0;
   border-left: 0;
   border-right: 0;
-  border-bottom: 4px solid black;
+  border-bottom: 4px solid $text;
   margin-top: 18px;
   // font-size: 48px;
   text-align: left;
   background-color: transparent;
   margin-bottom: 10px;
-  font-weight: 300;
+  font-family: 'SuisseIntl-Light';
 }
 
 #mc_embed_signup input.mce_inline_error {
-  border-color: black !important;
+  border-color: $text !important;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: $text;
-  opacity: 0.9; /* Firefox */
+  opacity: 1.0; /* Firefox */
 }
 
 #mc_embed_signup .button {
@@ -1259,7 +1250,7 @@ a.footnote-ref {
   cursor: pointer;
 }
 
-@media (max-width: 520px) {
+@media (max-width: 770px) {
 
   #spotlight, #spotlight-overlay {
     padding-top: 0px;
@@ -1281,29 +1272,19 @@ a.footnote-ref {
   }
 
   .text-big {
-    font-size: 42px;
-    line-height: 42px;
+    font-size: 12vw;
+    line-height: 12vw;
   } 
 
-  .text-normal {
-    font-size: 32px;
-    line-height: 36px;
-  }
-
   .text-small {
-    font-size: 18px;
-    line-height: 24px;
+    line-height: 7vw;
+    font-size: 5.5vw;
   } 
 
   .text-tiny {
     font-size: 12px;
     line-height: 24px;
-  } 
-
-  .text-tiniest {
-    font-size: 10px;
-    line-height: 14px;
-  } 
+  }
 
   #overlay {
     background-attachment: scroll;
@@ -1320,13 +1301,7 @@ a.footnote-ref {
   #home-funding .content,
   #home-funding-overlay .content {
     width: auto;
-  }  
-
-  #home-team .content,
-  #home-team-overlay .content {
-    width: 50%;
   }
-
 
   #home-funding-overlay .column-spacer-40,
   #home-team .column-spacer-40,
@@ -1341,9 +1316,9 @@ a.footnote-ref {
   }  
 
   #home-funding-overlay .icon {
-    width: 80px;
+    width: 70px;
     height: 50px;
-    margin-right: 30px;
+    margin-right: 20px;
   }
 
   #mc_embed_signup {
@@ -1352,13 +1327,17 @@ a.footnote-ref {
 
   #mc_embed_signup .email {
     height: 40px;
-    font-size: 22px;
   }
   
   #mc_embed_signup .button {
     font-size: 18px;
     height: 40px;
     margin-top: 24px;
+  }
+
+  #trailer {
+    position: relative;
+    top: 60vh;
   }
   
 }
