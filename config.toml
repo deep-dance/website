@@ -1,9 +1,12 @@
 
-baseURL = "https://deep.dance"
-# baseURL = "https://erak.github.io/webstage/"
+# baseURL = "https://deep.dance"
+baseURL = "https://erak.github.io/deep-dance-website/"
 languageCode = "en-us"
 title = "deep.dance"
 theme = "hermit"
+
+[markup.goldmark.renderer]
+unsafe= true
 
 [[params.videoBackground.sources]]
     source  = "/background.mp4" # Your video file
