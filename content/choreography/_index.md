@@ -6,21 +6,21 @@ image: "header_play.png"
 # link: "http://localhost:8080"
 ---
 
-<iframe id="visualizer" title="visualizer" src="https://erak.github.io/deep-dance-visualizer/"
+<iframe id="visualizer" title="visualizer" src="https://erak.github.io/deep-dance-visualizer/#/0"
     width="1280" height="800" frameborder="0" allowfullscreen></iframe>
 
 <small>
 Press the left mouse or touchpad button and move the mouse or touchpad to look around. Scroll with your mouse or touchpad to zoom in or out.
 </small>
 
-<iframe id="visualizer" title="visualizer" src="https://erak.github.io/deep-dance-visualizer/"
+<iframe id="visualizer" title="visualizer" src="https://erak.github.io/deep-dance-visualizer/#/1"
     width="1280" height="800" frameborder="0" allowfullscreen></iframe>
 
 <small>
 Press the left mouse or touchpad button and move the mouse or touchpad to look around. Scroll with your mouse or touchpad to zoom in or out.
 </small>
 
-<iframe id="visualizer" title="visualizer" src="https://erak.github.io/deep-dance-visualizer/"
+<iframe id="visualizer" title="visualizer" src="https://erak.github.io/deep-dance-visualizer/#/2"
     width="1280" height="800" frameborder="0" allowfullscreen></iframe>
 
 <small>
