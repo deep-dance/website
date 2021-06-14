@@ -24,6 +24,9 @@ unsafe= true
     time = "20h"
     location = "Hamburg"
     homeAnnouncement = "Infos & Code - available here soon"
+    nowOnline = "Now online"
+    # "idle" | "prerelease" | "release" | "default"
+    mode = "prerelease"
 
 [params.gpt3]
     copyright = ""

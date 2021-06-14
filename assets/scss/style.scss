@@ -533,6 +533,10 @@ p.img-404 {
 
 #home-title, #home-title-overlay {
   display: flex;
+
+  a {
+    color: #212529;
+  }
 }
 
 #home-title p, #home-title-overlay p {
