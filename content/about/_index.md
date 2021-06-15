@@ -1,5 +1,5 @@
 ---
-title: "About the piece"
+title: "About Deep.Dance"
 date: 2021-05-13T22:47:09+02:00
 draft: false
 teaser: "In Deep.Dance, a team of international artists replaces itself with an artificial intelligence. A complete choreography, created by an artificial neural network..."

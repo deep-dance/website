@@ -1,5 +1,5 @@
 ---
-title: "Explore code"
+title: "Explore the Code"
 date: 2021-05-17T22:47:09+02:00
 draft: false
 image: "header_code.png"

@@ -1,5 +1,5 @@
 ---
-title: "Watch choreography"
+title: "Watch the Original AI Material"
 date: 2021-05-18T22:47:09+02:00
 draft: false
 image: "header_play.png"

@@ -1,5 +1,5 @@
 ---
-title: "Watch full show"
+title: "Watch the Live Performance"
 date: 2021-05-20T22:47:09+02:00
 draft: false
 image: "header_video.png"

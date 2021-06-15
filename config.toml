@@ -1,6 +1,6 @@
 
-# baseURL = "https://deep.dance"
-baseURL = "https://erak.github.io/deep-dance-website/"
+baseURL = "https://deep.dance"
+# baseURL = "https://erak.github.io/deep-dance-website/"
 languageCode = "en-us"
 title = "deep.dance"
 theme = "hermit"
