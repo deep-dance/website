@@ -8,7 +8,7 @@ image: "aboutCoding.jpg"
 ---
 
 
-<iframe id="show-video" title="vimeo-player" src="https://player.vimeo.com/video/563840690/" 
+<iframe id="show-video" title="vimeo-player" src="https://player.vimeo.com/video/564264837/" 
     width="1280" height="720" frameborder="0" allowfullscreen></iframe>
 
 <br />
@@ -20,8 +20,9 @@ We're sorry, the interactive visualization is only available on the desktop vers
 </div>
 
 <div class="visualizer">
-Here you can see a 10min extract of the original output data of the neuronal network that was developed for Deep.Dance. In the rehearsal process the dancers used this tool - with a few addons - to learn and transcribe the movements of their figure. Each dancer developed an own approach of how to translate nearly sixty minutes of fairly random movement into an audio transcript. All movements of the AI figures were translated into a personal audio code, with countdowns, spoken images, directions an rhythical sounds. In the end it was synchronized to the original timing of the AI choreography and each dancers would listen to the audio during the live performance - in that way, a most accurate interpretation of the AI choreography was possible. 
+Here you can see a 10-minute excerpt of the original output data of the neural network developed for Deep.Dance. In the rehearsal process, the dancers used this tool - with a few additions - to learn and transcribe the exact movements of their figure. Each dancer developed their own approach to being able to translate almost sixty minutes of fairly random movements into an audio transcript. All movements of the AI figures were translated into a personal audio code, with countdowns, spoken images, instructions and rhythmic sounds. In the end, it was synchronised with the original timing of the AI choreography and each dancer listened to the audio track via an earpiece during the show - this way, the most accurate interpretation of the AI choreography was possible.
 
+<br />
 
 Press the left mouse or touchpad button and move the mouse or touchpad to look around. Scroll with your mouse or touchpad to zoom in or out.
 </div>
@@ -30,7 +31,7 @@ Press the left mouse or touchpad button and move the mouse or touchpad to look a
 <iframe id="visualizer-02" class="visualizer" title="visualizer" src="https://erak.github.io/deep-dance-visualizer/#/1"
         width="1280" height="800" frameborder="0" allowfullscreen></iframe>
 
-AI Choreo A (10 Min)
+AI choreography, figure A (10 Min) - transcribed and performed by Lisa Rykena
 </small>
 
 
@@ -39,11 +40,12 @@ AI Choreo A (10 Min)
 <iframe id="visualizer-01" class="visualizer" title="visualizer" src="https://erak.github.io/deep-dance-visualizer/#/0"
         width="1280" height="800" frameborder="0" allowfullscreen></iframe>
 
-AI Choreo B (10 Min)
+AI choreography, figure B (10 Min) - transcribed and performed by Raymond Liew Jin 
 </small>
 
 <small class="visualizer" >
 <iframe id="visualizer-03" class="visualizer" title="visualizer" src="https://erak.github.io/deep-dance-visualizer/#/2"
     width="1280" height="800" frameborder="0" allowfullscreen></iframe>
-AI Choreo C (10 Min)
+
+AI choreography, figure C (10 Min) - transcribed and performed by Girish Kumar
 </small>

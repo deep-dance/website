@@ -17,7 +17,6 @@ Drei Tänzer\*innen begeben sich in eine hermetisch-sanfte Choreographie, die vo
 ![](/deep-dance-lisa-small.jpg#col-3)
 
 In deep.dance ersetzt ein Team aus internationalen Künslter\*innen sich selbst durch eine künstliche Intelligenz. Eine vollständige Choreographie, kreiert durch ein von ihnen programmiertes, künstlich-neuronales Netz, wird bis ins Detail von drei Tänzer\*innen ausgeführt. Die seltsam vertrauten  Bewegungen eröffnen einen emphatischen Blick in die hyper-logische Welt des Code. Dabei konfrontieren sie die Betrachter*innen mit einem Konstrukt, das wenigen Menschen zugänglich ist und trotzdem unsere Zukunft bestimmt.
-
 Der Hamburger Choreograph [Jascha Viehstädt ->](https://www.jaschaviehstaedt.com) entwirft eine stille und weiche Welt statistisch vorherbestimmter Bewegungen die spürbar macht, was es auslöst, menschliche Kreativität von einer Maschine berechnen zu lassen. Die strikte Einfachheit des Stücks bietet auf diese Weise einen Einblick in grundlegende Mechanismen von Software und Machine Learning und hinterfragt Hoffnungen und Ängste, die in die Entwicklung künstlicher Intelligenz projiziert werden.
 
 
@@ -56,9 +55,13 @@ Für Deep.Dance haben Erik Kundt, Nikolas Zöller und Lea Schörling ein solches
 
 Die so entstandene Choreographie ist der Kernteil der Arbeit. Dabei haben wir versucht, so wenig Daten- bzw. Trainingsmaterial wie möglich zu verwenden und die von der KI generierten Bewegungen möglichst unbearbeitet zu lassen, um durch eine geringe Komplexität einen besseren Blick auf die Vorgänge und Funktionsweise in einer Software zu ermöglichen.
 
-<small>
+<i>
 Wie eine Partitur eines Musikstückes die von einem Orchester gespielt wird für die Zuhörer\*innen einen Blick in den Kopf der Komponistin\*in offenbart, so wirft Deep.Dance vor allem ein Licht auf das Innere einer Software und versucht der Zuschauer*in einen emphatischen Zugang zu ermöglichen.
-</small>
+</i>
+
+<br/>
+<br/>
+<br/>
 
 In der aktuellen Debatte um künstlichen Intelligenz (aber auch zur Technologie allgemein) verstellt die schiere Komplexität und Tiefe der Vorgänge meistens das tatsächliche Geschehen und lässt in diesem Falle den Mythos einer im menschlichen Sinne intelligenten, künstlichen Intelligenz entstehen. Einfach, weil es einfacher und faszinierender ist daran zu glauben, als Vorgänge nachvollziehbar zu machen oder nachzuvollziehen und sich mit den realen, viel vordringlicheren gesellschaftlichen Konsequenzen technologischer Entwicklung zu beschäftigen.
 

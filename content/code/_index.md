@@ -1,5 +1,5 @@
 ---
-title: "Explore the Code"
+title: "Read more about the code"
 date: 2021-05-17T22:47:09+02:00
 draft: false
 color: yellow
@@ -17,11 +17,11 @@ image: "header_code.png"
 
 # Overview
 
-The core software component of Deep.Dance is a system, that uses to machine learning to study exisiting and create new movement sequences. In order to visualize these newly created movement sequences a web-based component, that could render them, was developed. An additional web-based component, that can control and animate a LED light setup on stage, was also to the set of components.
+The core software component of Deep.Dance is a system, that uses machine learning to study existing and create new movement sequences. In order to visualize these newly created movement sequences a web-based component, that could render them, was developed. An additional web-based component, that can control and animate a LED light setup on stage, was also to the set of components.
 
 # Machine Learning
 
-The purpose of the main software component was to extract movement sequences from existing video recordings, train a neural network such that it can predict subsequent movements and generate new movement sequence from arbitrary input movements. This resulted in a pipeline design that involved the stages described in the sections below.
+The purpose of the main software component was to extract movement sequences from existing video recordings, train a neural network such that it can predict subsequent movements and generate new movement sequences from arbitrary input movements. This resulted in a pipeline design that involved the stages described in the sections below.
 
 ## Dataset
 

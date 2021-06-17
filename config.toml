@@ -1,6 +1,6 @@
 
-# baseURL = "https://deep.dance"
-baseURL = "https://erak.github.io/deep-dance-website/"
+baseURL = "https://deep.dance"
+# baseURL = "https://erak.github.io/deep-dance-website/"
 canonifyurls = "true"
 languageCode = "en-us"
 title = "deep.dance"
@@ -41,7 +41,7 @@ unsafe= true
     text = "Enter the hermetically soft world of code. Human, Transhuman. Machine learning. Dance. Computation. Creativity. Prediction. Soft-ware. Choreography."
 
 [[params.about.list]]
-    text = "In Deep.Dance, a team of international artists replaces itself with an artificial intelligence. A complete choreography, created by an artificial neural network that they programmed, is executed down to the last detail by three dancers. The strangely familiar movements open up an emphatic view into the hyper-logical world of code and confront the viewers with a construct that is accessible to few people and yet determines our future. The Hamburg based choreographer Jascha Viehstädt creates a silent and soft world of statistically predetermined movements that makes tangible what it means to have human creativity computed by a machine. In this way, the uncompromising simplicity of the piece offers an insight into the basic mechanisms of software and machine learning and questions the hopes and fears that are projected into the development of artificial intelligence."
+    text = "In Deep.Dance, a team of international artists replaces itself with an artificial intelligence. A complete choreography, created by an artificial neural network that they programmed, is executed down to the last detail by three dancers. The strangely familiar movements open up an emphatic view into the hyper-logical world of code and confront the viewers with a construct that is accessible to few people and yet determines our future. <br /><br />The Hamburg based choreographer [Jascha Viehstädt →](http://www.jaschaviehstaedt.com) creates a silent and soft world of statistically predetermined movements that makes tangible what it means to have human creativity computed by a machine. In this way, the uncompromising simplicity of the piece offers an insight into the basic mechanisms of software and machine learning and questions the hopes and fears that are projected into the development of artificial intelligence."
 
 [params.team]
     title = "# TEAM"

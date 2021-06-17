@@ -14,4 +14,4 @@ image: "fullShow.jpg"
 <!-- <small>
 Enter the hermetically soft world of code. Human, Transhuman. Machine learning. Dance. Computation. Creativity. Prediction. Soft-ware. Choreography.
 </small> -->
-Download available, please contact deepdance@jaschaviehstaedt.com
+<!-- Download available, please contact deepdance@jaschaviehstaedt.com -->
