@@ -1,6 +1,7 @@
 
-baseURL = "https://deep.dance"
-# baseURL = "https://erak.github.io/deep-dance-website/"
+# baseURL = "https://deep.dance"
+baseURL = "https://erak.github.io/deep-dance-website/"
+canonifyurls = "true"
 languageCode = "en-us"
 title = "deep.dance"
 theme = "hermit"
@@ -26,7 +27,7 @@ unsafe= true
     homeAnnouncement = "Infos & Code - available here soon"
     nowOnline = "Now online"
     # "idle" | "prerelease" | "release" | "default"
-    mode = "prerelease"
+    mode = "release"
 
 [params.gpt3]
     copyright = ""
