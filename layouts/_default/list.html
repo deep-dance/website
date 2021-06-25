@@ -16,6 +16,20 @@
                                     <a target="_blank" href="{{ .href }}"></a>
                                 </div>
                             {{ end }}
+
+                            {{ if eq .Section "about" }}
+                                {{ with .Site.Params.funding.daku_ext_en }}
+                                    <p class="text-tiny margin-top-large">
+                                        {{ . | markdownify }}	
+                                    </p>
+                                {{ end}}
+                            {{ else }}
+                                {{ with .Site.Params.funding.daku_ext_de }}
+                                    <p class="text-tiny margin-top-large">
+                                        {{ . | markdownify }}	
+                                    </p>
+                                {{ end}}
+                            {{ end }}
                         </div>
                     </div>
                 {{ end }}

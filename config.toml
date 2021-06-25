@@ -90,7 +90,9 @@ unsafe= true
 
 [params.funding]
     title = "# FUNDED"
-    text= "**deep.dance** ist eine Produktion von [Jascha Viehstädt](http://www.jaschaviehstaedt.com). Gefördert im Rahmen des AUTONOM Programms des Fonds Darstellende Künste, von der Behörde für Kultur und Medien Hamburg, sowie der Hamburgischen Kulturstiftung."
+    text = "**deep.dance** ist eine Produktion von [Jascha Viehstädt](http://www.jaschaviehstaedt.com). Gefördert im Rahmen des AUTONOM Programms des Fonds Darstellende Künste, von der Behörde für Kultur und Medien Hamburg, sowie der Hamburgischen Kulturstiftung."
+    daku_ext_en = "Supported by Fonds Darstellende Künste with funds from the Federal Government Commissioner for Culture and the Media and the Federal Ministry of Food and Agriculture, the Ministry of Culture and Media Hamburg and by the Hamburgische Kulturstiftung."
+    daku_ext_de = "Gefördert vom Fonds Darstellende Künste aus Mitteln der Beauftragten der Bundesregierung für Kultur und Medien und dem Bundesministerium für Ernährung und Landwirtschaft, der Behörde für Kultur und Medien Hamburg und der Hamburgischen Kulturstiftung."
 
 [[params.funding.list]]
     name = "Fonds Darstellende Künste"

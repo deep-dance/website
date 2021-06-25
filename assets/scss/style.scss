@@ -231,6 +231,10 @@ table {
   margin-top: 5vh;
 }
 
+.margin-top-large {
+  margin-top: 12vh;
+}
+
 .no-margin-top {
   margin-top: 0;
 }
@@ -715,10 +719,6 @@ p.img-404 {
 #home-funding-overlay .icon a:hover {
   box-shadow: none;
   color: $text;
-}
-
-#home-funding-overlay p {
-  font-style: italic;
 }
 
 #home-social {

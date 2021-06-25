@@ -17,15 +17,15 @@ image: "header_code.png"
 
 # Overview
 
-The core software component of Deep.Dance is a system, that uses machine learning to study existing and create new movement sequences. In order to visualize these newly created movement sequences a web-based component, that could render them, was developed. An additional web-based component, that can control and animate a LED light setup on stage, was also to the set of components.
+The core software component of Deep.Dance is a system, that uses machine learning to study existing and create new movement sequences. In order to visualize these movement sequences, a web-based component, that could render them, was developed. An additional web-based component, that can control and animate a LED light setup on stage, was also to the set of components.
 
 # Machine Learning
 
-The purpose of the main software component was to extract movement sequences from existing video recordings, train a neural network such that it can predict subsequent movements and generate new movement sequences from arbitrary input movements. This resulted in a pipeline design that involved the stages described in the sections below.
+The purpose of the core component was to extract movement sequences from existing video recordings, train a neural network such, that it can predict subsequent movements and generate new movement sequences from arbitrary input movements. This resulted in a pipeline design that involved the stages described in the sections below.
 
 ## Dataset
 
-First of all, a dataset that is needed for the training of the neural network was created. Since the aim was to create new movement sequences, it was decided to use an image-based approach and record videos of several predefined movement qualities done by several dancers. These videos are then fed into the first stage of the pipeline which uses the software libraries [Detectron2 →](https://github.com/facebookresearch/detectron2) and [VideoPose3D →](https://github.com/facebookresearch/VideoPose3D) to analyse all videos frame by frame and extract movement information in the form of keypoints. These keypoints are a representation of movement information of a human body. The following figure illustrates this by a rendering of extracted keypoints for the very same frame of an input video:
+First of all, the dataset needed for the training of the neural network was created. Since the aim was to create new movement sequences, it was decided to use an image-based approach and record videos of several predefined movement qualities done by several dancers. These videos were then fed into the first stage of the pipeline which uses the software libraries [Detectron2 →](https://github.com/facebookresearch/detectron2) and [VideoPose3D →](https://github.com/facebookresearch/VideoPose3D) to analyse all videos frame by frame and extract movement information in the form of keypoints. These keypoints are a representation of movement information of a human body. The following figure illustrates this (rendering of extracted keypoints for the very same frame of an input video):
 
 ![](/code_single_01.png#img-small)
 ![](/code_single_02.png#img-small)
