@@ -56,7 +56,7 @@ Für Deep.Dance haben Erik Kundt, Nikolas Zöller und Lea Schörling ein solches
 Die so entstandene Choreographie ist der Kernteil der Arbeit. Dabei haben wir versucht, so wenig Daten- bzw. Trainingsmaterial wie möglich zu verwenden und die von der KI generierten Bewegungen möglichst unbearbeitet zu lassen, um durch eine geringe Komplexität einen besseren Blick auf die Vorgänge und Funktionsweise in einer Software zu ermöglichen.
 
 <i>
-Wie eine Partitur eines Musikstückes die von einem Orchester gespielt wird für die Zuhörer\*innen einen Blick in den Kopf der Komponistin\*in offenbart, so wirft Deep.Dance vor allem ein Licht auf das Innere einer Software und versucht der Zuschauer*in einen emphatischen Zugang zu ermöglichen.
+Wie eine Partitur eines Musikstückes die von einem Orchester gespielt wird für die Zuhörer*innen einen Blick in den Kopf der Komponistin*in offenbart, so wirft Deep.Dance vor allem ein Licht auf das Innere einer Software und versucht der Zuschauer*in einen emphatischen Zugang zu ermöglichen.
 </i>
 
 <br/>
@@ -69,7 +69,7 @@ In der aktuellen Debatte um künstlichen Intelligenz (aber auch zur Technologie 
 # Kreativität
 
 Zusammenfassend fokussiert sich die Arbeit auf eine noch große Unbekannte in der Forschung an menschlicher Intelligenz und künstlich intelligenter Software: Die Kreativität. Was ist Kreativität und lässt sie sich mit Maschinen herstellen?
-Deep.Dance konfrontiert uns, die Macher*innen, und alle kreativen Arbeiter*innen, mit den Fragen: Was geschieht, wenn die Choreograph*in nicht ein Mensch, sondern eine Software ist? Was bedeutet es, wenn wir dem vielleicht kreativen Prozess einer Maschine folgen und nicht umgekehrt? Und welcher Eindruck entsteht dabei für ein Publikum? Ist Kreativität nur eine sehr komplexe Ansammlung vieler, aber einfacher Daten?
+Deep.Dance konfrontiert uns, die Macher\*innen, und alle kreativen Arbeiter\*innen, mit den Fragen: Was geschieht, wenn die Choreograph*in nicht ein Mensch, sondern eine Software ist? Was bedeutet es, wenn wir dem vielleicht kreativen Prozess einer Maschine folgen und nicht umgekehrt? Und welcher Eindruck entsteht dabei für ein Publikum? Ist Kreativität nur eine sehr komplexe Ansammlung vieler, aber einfacher Daten?
 Als eine Fallstudie am menschlichen Körper wollen wir herausfinden, was KI heute kann, ob sie sich in der Zukunft über das Erlernen oder Simulieren kreativer Prozesse tatsächlich unersetzbar machen könnte und ob wir willens sind oder es überhaupt sinnvoll ist, unsere kreativen und physikalischen Kapazitäten mit einer KI-Software zu teilen und uns derer unterzuordnen.
 
 - [Mehr zur Software Entwicklung von Deep.Dance →](/code)
@@ -119,7 +119,7 @@ Als eine Fallstudie am menschlichen Körper wollen wir herausfinden, was KI heut
 ### Photographie
 - [Marcus Renner →](https://www.marcusrenner.com/)
 
-### Produktions Assistentin
+### Produktions-Assistentin
 - Nika Viehstädt
 
 <br/>
