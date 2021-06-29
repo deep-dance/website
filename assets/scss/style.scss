@@ -504,6 +504,10 @@ h1, .text-big {
   height: 20vw;
 }
 
+#trailer-big {
+  height: 51vw;
+}
+
 // Spotlight
 //
 #spotlight, #spotlight-overlay {
@@ -1557,6 +1561,13 @@ a.footnote-ref {
     top: 50vh;
     width: 90vw;
     height: 40vh;
+  } 
+
+  #trailer-big {
+    position: relative;
+    // top: 50vh;
+    width: 90vw;
+    height: 30vh;
   } 
 
   // #gallery p, code {

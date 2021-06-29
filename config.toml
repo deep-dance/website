@@ -27,7 +27,7 @@ unsafe= true
     homeAnnouncement = "Infos & Code - available here soon"
     nowOnline = "Now online"
     # "idle" | "prerelease" | "release" | "default"
-    mode = "release"
+    mode = "default"
 
 [params.gpt3]
     copyright = ""
